@@ -1,0 +1,85 @@
+
+.sopra{
+  position: fixed;
+  height: 100px;
+  background-color: black;
+  width: 100%;
+  opacity: 0.3;
+}
+.centro{
+  height: 1000px;
+  background-color: #141922;
+  width: 100%;
+}
+
+.barrafissa{
+  width: 100%;
+  height:100px;
+  background-color:#282828;
+  position: fixed;
+  bottom: 0;
+  overflow: hidden;
+}
+.destra{
+  text-align: left;
+  display: inline-block;
+  padding-top: 15px;
+  position:fixed;
+  height: 100%;
+  width: 200px;
+  background-color: black;
+  color:white;
+  font-size: 25px;
+}
+.fab{
+  height: 50px;
+  width: 50px;
+}
+#testo{
+  float: right;
+  margin-right: 50px;
+  margin-top:8px;
+}
+.lista ul li{
+  font-size: 15px;
+  list-style-type: none;
+  color:grey;
+}
+#giu{
+  margin-top:20px;
+  font-size:12px;
+  color:white;
+}
+#bottone{
+  text-align: center;
+padding-top:-15px;
+  height:32px;
+  width: 32px;
+  background-color:grey;
+  border:none;
+}
+#bottone p{
+  margin-bottom:5px;
+  font-size:25px;
+  color:black;
+}
+.distanza{
+  margin-top:10px;
+}
+.sottosotto{
+  margin-left:15px;
+  padding-top:230px;
+  color:grey;
+  font-size:15px;
+}
+.sottosotto hr{
+  margin-left:10px;
+  color:grey;
+  width:80%;
+}
+.sottosotto p{
+  color:white;
+}
+.lista{
+  padding-top:50px;
+}
