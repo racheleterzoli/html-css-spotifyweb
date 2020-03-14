@@ -2,9 +2,8 @@
 .sopra{
   position: fixed;
   height: 100px;
-  background-color: black;
+  background-color: #00000082;
   width: 100%;
-  opacity: 0.3;
 }
 .centro{
   height: 1000px;
@@ -23,7 +22,6 @@
 .destra{
   text-align: left;
   display: inline-block;
-  padding-top: 15px;
   position:fixed;
   height: 100%;
   width: 200px;
@@ -41,6 +39,7 @@
   margin-top:8px;
 }
 .lista ul li{
+  padding-top:5px;
   font-size: 15px;
   list-style-type: none;
   color:grey;
@@ -67,8 +66,9 @@ padding-top:-15px;
   margin-top:10px;
 }
 .sottosotto{
+  display: inline-block;
   margin-left:15px;
-  padding-top:230px;
+  padding-top:225px;
   color:grey;
   font-size:15px;
 }
@@ -82,4 +82,62 @@ padding-top:-15px;
 }
 .lista{
   padding-top:50px;
+}
+.la{
+  margin-left:15px;
+}
+#upgrade{
+  padding-top:5px;
+  margin-top:20px;
+opacity:1;
+  float: right;
+  height:40px;
+  width:200px;
+  background-color: black;
+  border-radius:50px;
+  font-size: 15px;
+  border:1px solid white;
+}
+.bianco p{
+
+  color:white;
+}
+ul.menu li {
+    display: inline;
+    padding-right:20px;
+
+}
+.lista li:hover{
+color:white;
+border-left: green 2px solid;
+
+}
+.menu{
+  text-align: center;
+margin-left:200px;
+  padding-top:120px;
+}
+.menu a{
+  color:grey;
+}
+.spotify{
+  padding-top:15px;
+  padding-left:10px;
+}
+.lista ul{
+  padding-left:0px;
+}
+.lista ul li{
+  padding-left:40px;
+}
+.menu ul li{
+  list-style-type: none;
+}
+.menu li:hover{
+  border-width: 20%;
+color:white;
+border-bottom-width: thin;
+border-bottom: green 2px solid;
+
+border-left: none;
 }
