@@ -181,8 +181,8 @@ a:hover::after {
   width: 100%;
 }
 @media screen and (max-width: 992px){
-  .prova{
-   width: 50%;
+  .prova img{
+   width: 100px;
   }
 }
 .immagini{
@@ -231,7 +231,7 @@ a:hover::after {
   font-size: 10px;
 }
 .grigino{
-
+padding-bottom:20px;
     color:grey;
     font-size: 10px;
   }
@@ -296,17 +296,17 @@ padding-bottom:5px;
   display: inline-block;
 }
 .fa-tv{
-  padding-left:20px;
+  padding-left:10%;
 padding-top:30px;
 }
 .fa-volume-up{
   padding-left:20px;
 }
 .fa-bars{
-  padding-left:100px;
+  padding-left:10%;
 }
 .primo{
-  float: left;
+  text-align: center;
   width: 50%;
 }
 .secondo{
