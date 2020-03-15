@@ -12,8 +12,9 @@
 }
 
 .barrafissa{
+  display: inline-block;
   width: 100%;
-  height:100px;
+  height:80px;
   background-color:#282828;
   position: fixed;
   bottom: 0;
@@ -51,7 +52,7 @@
 }
 #bottone{
   text-align: center;
-padding-top:-15px;
+  padding-top:-15px;
   height:32px;
   width: 32px;
   background-color:grey;
@@ -89,7 +90,7 @@ padding-top:-15px;
 #upgrade{
   padding-top:5px;
   margin-top:20px;
-opacity:1;
+  opacity:1;
   float: right;
   height:40px;
   width:200px;
@@ -103,18 +104,18 @@ opacity:1;
   color:white;
 }
 ul.menu li {
-    display: inline;
-    padding-right:20px;
+  display: inline;
+  padding-right:20px;
 
 }
 .lista li:hover{
-color:white;
-border-left: green 2px solid;
+  color:white;
+  border-left: green 2px solid;
 
 }
 .menu{
   text-align: center;
-margin-left:200px;
+  margin-left:200px;
   padding-top:120px;
 }
 .menu a{
@@ -134,10 +135,66 @@ margin-left:200px;
   list-style-type: none;
 }
 .menu li:hover{
-  border-width: 20%;
-color:white;
-border-bottom-width: thin;
-border-bottom: green 2px solid;
+  color:white;
+  border-bottom: green 2px solid;
+  border-left: none;
+}
+.uno{
+  height: 80px;
+}
+.due{
+  background-color:blue ;
+  text-align: center;
+  height:40px;
+}
+.tre{
+  background-color: yellow;
+  height: 80px;
+}
+.icone{
+  float: right;
+  padding-right:140px;
+  padding-top:12%;
+}
+.quattro{
+  background-color: pink;
+  height: 40px;
+}
+a:hover{
+  text-decoration: none;
+}
+a:hover::after {
+  content:'';
+  position:absolute;
+  width:20px;
+  height:1px;
+  background:green;
+  bottom:0;
+  left:0;
+  right:0;
+  margin:auto;
+}
 
-border-left: none;
+.ascoltati h1{
+  color:white;
+  font-size: 30px;
+  padding-left:220px;
+  padding-top:20px;
+}
+.icona-musica{
+  padding-left:220px;
+  display: flex;
+  justify-content: space-between;
+}
+.ascoltati h2{
+  font-size:12px;
+  color:grey;
+  padding-left:220px;
+}
+
+.prova{
+ width: 12%;
+}
+.prova img{
+  width: 100%;
 }
