@@ -6,7 +6,7 @@
   width: 100%;
 }
 .centro{
-  height: 1000px;
+  height: 1500px;
   background-color: #141922;
   width: 100%;
 }
@@ -139,27 +139,7 @@ ul.menu li {
   border-bottom: green 2px solid;
   border-left: none;
 }
-.uno{
-  height: 80px;
-}
-.due{
-  background-color:blue ;
-  text-align: center;
-  height:40px;
-}
-.tre{
-  background-color: yellow;
-  height: 80px;
-}
-.icone{
-  float: right;
-  padding-right:140px;
-  padding-top:12%;
-}
-.quattro{
-  background-color: pink;
-  height: 40px;
-}
+
 a:hover{
   text-decoration: none;
 }
@@ -182,6 +162,7 @@ a:hover::after {
   padding-top:20px;
 }
 .icona-musica{
+  padding-right:15px;
   padding-left:220px;
   display: flex;
   justify-content: space-between;
@@ -193,8 +174,141 @@ a:hover::after {
 }
 
 .prova{
- width: 12%;
+  text-align: center;
+ width: 14%;
 }
 .prova img{
   width: 100%;
+}
+@media screen and (max-width: 992px){
+  .prova{
+   width: 50%;
+  }
+}
+.immagini{
+  display: inline-block;
+}
+.secondo{
+  float:left;
+}
+.dopo{
+  padding-left:220px;
+  display: flex;
+  justify-content: flex-start;
+}
+.spazio{
+  margin-right:20px;
+}
+.rotondo img{
+  border-radius: 100%;
+}
+.testofoto{
+  margin-top:15px;
+}
+.testofoto h1{
+  font-size: 15px;
+  color:white;
+  margin:0;
+  padding:0;
+}
+.testofoto h2{
+  color:grey;
+  margin:0;
+  padding:0;
+}
+
+
+.uno{
+  padding-left:15px;
+  padding-top:15px;
+}
+/* .icone{
+  display: flex;
+  justify-content: flex-start;
+} */
+.bianchino{
+  color:white;
+  font-size: 10px;
+}
+.grigino{
+
+    color:grey;
+    font-size: 10px;
+  }
+.fa-heart{
+  padding-top:18px;
+}
+.fa-folder{
+    padding-top:18px;
+    padding-left:7px;
+}
+.immaginini{
+  width: 50%;
+}
+
+.immaginini img{
+padding-bottom:5px;
+  height: 50px;
+
+  float:left;
+}
+.claas{
+  width: 100%;
+}
+.red{
+  padding-right: 50px;
+  height: 80px;
+  width: 100%;
+}
+.blue{
+  height:40px;
+  width:100%;
+}
+.yellow{
+  height: 40px;
+}
+.pink{
+  height: 80px;
+
+  width:100%;
+}
+.due{
+  text-align: center;
+}
+.fa-random {
+
+  padding-right:20px;
+}
+.fa-step-backward{
+  padding-right:20px;
+}
+.fa-play-circle{
+  padding-right:20px;
+}
+.fa-step-forward{
+    padding-right:20px;
+}
+.yellow hr{
+  color:grey;
+
+}
+.pink{
+  display: inline-block;
+}
+.fa-tv{
+  padding-left:20px;
+padding-top:30px;
+}
+.fa-volume-up{
+  padding-left:20px;
+}
+.fa-bars{
+  padding-left:100px;
+}
+.primo{
+  float: left;
+  width: 50%;
+}
+.secondo{
+  width: 50%;
 }
